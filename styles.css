@@ -26,3 +26,55 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+.header {
+    padding: 5px;
+    background-color: #333;
+    text-align: left;
+}
+
+.header a{
+    text-decoration: none;
+    
+    color: white;
+    overflow: hidden;
+}
+
+.header h1{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: dimgray;
+}
+
+.info{
+
+}
+
+.info img.headshot {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: left;
+    height: auto;
+    width: 20%;
+}
