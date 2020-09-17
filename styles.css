@@ -1,6 +1,7 @@
 body {
     background-color: gray;
     color: white;
+    font-family: Candara;
 }
 
 ul {
@@ -57,7 +58,10 @@ li a:hover {
     float: left;
     display: block;
     color: white;
-    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    padding-top: 10px;
     text-align: center;
     text-decoration: none;
 }
@@ -66,15 +70,30 @@ li a:hover {
     background-color: dimgray;
 }
 
-.info{
+.info {
+    padding-top: 20px;
+    margin-right: 100px;
+}
 
+.info p {
+    line-height: 1.5;
+    
+    font-size: 17px;
+}
+
+.info h1{
+    font-size: 40px;
 }
 
 .info img.headshot {
     padding-top: 40px;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 75px;
     float: left;
     height: auto;
     width: 375px;
+}
+
+info td.job {
+    width: 400px;
 }
