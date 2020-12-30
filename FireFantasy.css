@@ -1,0 +1,26 @@
+
+html, body {
+    width: 600px;
+}
+
+.title {
+    text-align: center;
+}
+
+.button {
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.button a {
+    background-color: #E5F2F2;
+    text-decoration: none;
+    color: black;
+}
+
+.button a:hover {
+    background-color: #CFF2F2;
+}
